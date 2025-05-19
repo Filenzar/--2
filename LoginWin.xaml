@@ -1,0 +1,19 @@
+﻿<Window x:Class="_19._05._25ContolW.LoginWin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_19._05._25ContolW"
+        mc:Ignorable="d"
+        Title="LoginWindow" Height="400" Width="300">
+    <Grid>
+        <Label Content="Авторизация" FontSize="32" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top"/>
+
+        <Button Content="Авторизация" Margin="101,204,101,126" Click="LoginButton_Click" />
+        <TextBox x:Name="LoginBox" HorizontalAlignment="Center" Margin="0,108,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <PasswordBox x:Name="PasswBox" HorizontalAlignment="Center" VerticalAlignment="Top" Width="120" Margin="0,162,0,0"/>
+        <Label Content="Логин" HorizontalAlignment="Center" Margin="0,77,0,0" VerticalAlignment="Top"/>
+        <Label Content="Пароль" HorizontalAlignment="Center" Margin="0,131,0,0" VerticalAlignment="Top"/>
+        <Button Content="Регистрация" HorizontalAlignment="Center" Margin="0,286,0,0" VerticalAlignment="Top" Height="42" Width="98" Background="Transparent" BorderBrush="Transparent" Click="RegButton_Click"/>
+    </Grid>
+</Window>
